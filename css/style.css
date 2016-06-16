@@ -776,11 +776,16 @@ p {
 button {
   background-color: transparent;
 }
-button:active {
-  border: none;
+button:active,
+button:focus {
+  outline: none;
 }
 picture {
   width: inherit;
+}
+a:active,
+a:focus {
+  outline: none;
 }
 .overflow-wrapper {
   overflow: hidden;
